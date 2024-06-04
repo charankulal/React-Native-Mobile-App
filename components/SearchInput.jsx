@@ -1,8 +1,9 @@
-import { View, Text, TouchableOpacity } from "react-native";
+import { View, Text, TouchableOpacity, Image } from "react-native";
 import React from "react";
 import { TextInput } from "react-native";
+import { icons } from "../constants";
 
-const SearchInput = (value, placeholder, handleChangeText, title) => {
+const SearchInput = (value,  handleChangeText, title) => {
   return (
     <View
       className=" border-2 border-black-200 w-full h-16 px-4
@@ -12,12 +13,18 @@ const SearchInput = (value, placeholder, handleChangeText, title) => {
       <TextInput
         className="text-base mt-0.5 text-white flex-1 font-pregular"
         value={value}
-        placeholder={placeholder}
+        placeholder="Search  for a video topic"
         placeholderTextColor="#7b7b8b"
         onChangeText={handleChangeText}
         secureTextEntry={title === "Password" && !showPassword}
       />
-      <TouchableOpacity></TouchableOpacity>
+      <TouchableOpacity>
+        <Image
+        source={icons.search}
+        className="w-5 h-5"
+        resizeMode="contain"
+        />
+      </TouchableOpacity>
     </View>
   );
 };
