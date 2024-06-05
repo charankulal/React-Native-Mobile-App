@@ -1,18 +1,19 @@
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
-
 ## Sample Screenshots
-<p align='center>
-<img src="./screenshots/page1.jpg" />
-<img src="./screenshots/page2.jpg" />
-<img src="./screenshots/page3.jpg" />
-<img src="./screenshots/page4.jpg" />
-<img src="./screenshots/page5.jpg" />
-<img src="./screenshots/page6.jpg" />
-<img src="./screenshots/page7.jpg" />
-
+<p style="text-align: center;">
+  <img src="./screenshots/page1.jpg" alt="Page 1" height="400px" width="200px">
+  <img src="./screenshots/page2.jpg" alt="Page 2" height="400px" width="200px">
+  <img src="./screenshots/page3.jpg" alt="Page 3" height="400px" width="200px">
+  <img src="./screenshots/page4.jpg" alt="Page 4" height="400px" width="200px">
+  <img src="./screenshots/page5.jpg" alt="Page 5" height="400px" width="200px">
+  <img src="./screenshots/page6.jpg" alt="Page 6" height="400px" width="200px">
+  <img src="./screenshots/page7.jpg" alt="Page 7" height="400px" width="200px">
+  
 </p>
+
+
 
 ## Get started
 
