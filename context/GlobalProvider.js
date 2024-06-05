@@ -51,5 +51,4 @@ const GlobalProvider = ({ children }) => {
   );
 };
 
-
-export default GlobalProvider
+export default GlobalProvider;
